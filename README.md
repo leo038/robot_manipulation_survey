@@ -1,5 +1,5 @@
 # robot_manipulation_survey
-Summary of work related to general robot operations.
+Summary of work related to general robot manipulation.
 
 ## 灵巧手抓取
 
@@ -13,7 +13,8 @@ Summary of work related to general robot operations.
 
 
 - [UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning](https://arxiv.org/abs/2304.00464)    ICCV 2023 
-关注不同物体不同位姿的几何差异，并利用通用策略-专家策略学习方法，极大地提升了 UniDexGrasp 的泛化能力
+
+    关注不同物体不同位姿的几何差异，并利用通用策略-专家策略学习方法，极大地提升了 UniDexGrasp 的泛化能力
 
 
 - [DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation](https://arxiv.org/abs/2210.02697) ICRA 2023
@@ -31,3 +32,14 @@ Summary of work related to general robot operations.
 
 
 ## 端到端机器人操作
+
+
+
+
+
+
+
+## 开源机器人框架
+
+
+[LeRobot](https://github.com/huggingface/lerobot)
