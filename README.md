@@ -36,10 +36,37 @@ Summary of work related to general robot manipulation.
 
 
 
+1 google RT系列
+
+- [RT-1](https://robotics-transformer1.github.io/)   2022
+- [RT-2](https://robotics-transformer2.github.io/)   2023
+- [RT-X](https://robotics-transformer-x.github.io/)   2023
+
+
+
+2 [Octo](https://octo-models.github.io/)    2023
+
+
+
+
+
+
+3 [OpenVLA](https://openvla.github.io/)    2024
 
 
 
 ## 开源机器人框架
 
 
-[LeRobot](https://github.com/huggingface/lerobot)
+HuggingFace: [LeRobot](https://github.com/huggingface/lerobot)  2024
+
+
+## 开源数据集
+
+google: [Open X-Embodiment](https://robotics-transformer-x.github.io/)   2023
+
+智元： [AgiBot-World](https://agibot-world.com/)   2025
+
+
+数据采集平台： [Mobile ALOHA](https://mobile-aloha.github.io/)   2024
+
