@@ -65,8 +65,9 @@ HuggingFace: [LeRobot](https://github.com/huggingface/lerobot)  2024
 
 google: [Open X-Embodiment](https://robotics-transformer-x.github.io/)   2023
 
+
+数据采集平台： 斯坦福 [Mobile ALOHA](https://mobile-aloha.github.io/)      2024
+
+
 智元： [AgiBot-World](https://agibot-world.com/)   2025
-
-
-数据采集平台： [Mobile ALOHA](https://mobile-aloha.github.io/)   2024
 
