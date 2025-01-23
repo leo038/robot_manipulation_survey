@@ -1,6 +1,36 @@
 # robot_manipulation_survey
 Summary of work related to general robot manipulation.
 
+
+
+
+
+## 二指夹爪抓取
+- [Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutte](https://arxiv.org/abs/2101.01132) CoRL  2020
+
+
+- 上海交通大学 [TransCG: A Large-Scale Real-World Dataset for Transparent Object Depth Completion and a Grasping Baseline](https://arxiv.org/abs/2202.08471) 2022
+
+    主要解决透明物体的抓取。 
+
+
+- 上海交通大学 [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf)  CVPR 2020
+
+  提出了一个大型的抓取姿态检测数据集和评估系统。
+
+
+
+- 上海交通大学 [RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images](https://arxiv.org/abs/2103.02184)  ICRA 2021
+  
+  7 自由度的抓取。 
+
+
+- [Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes](https://arxiv.org/abs/2103.14127)  ICRA 2021
+
+
+- 上海交通大学 [Graspness Discovery in Clutters for Fast and Accurate Grasp Detection](https://arxiv.org/abs/2406.11142)  ICCV 2021
+
+
 ## 灵巧手抓取
 
 代表性工作：
@@ -63,10 +93,13 @@ HuggingFace: [LeRobot](https://github.com/huggingface/lerobot)  2024
 
 ## 开源数据集
 
+
+上海交通大学 [GraspNet-1Billion](https://graspnet.net/) 2020
+
 google: [Open X-Embodiment](https://robotics-transformer-x.github.io/)   2023
 
 
-数据采集平台： 斯坦福 [Mobile ALOHA](https://mobile-aloha.github.io/)      2024
+斯坦福 [Mobile ALOHA](https://mobile-aloha.github.io/)   (这不是一个具体的数据， 而是一套机器人数据采集系统)     2024
 
 
 智元： [AgiBot-World](https://agibot-world.com/)   2025
