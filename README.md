@@ -29,6 +29,8 @@ Summary of work related to general robot manipulation.
 
 
 - 上海交通大学 [Graspness Discovery in Clutters for Fast and Accurate Grasp Detection](https://arxiv.org/abs/2406.11142)  ICCV 2021
+ 
+- 上海交通大学 [AnyGrasp](https://graspnet.net/anygrasp)   T-RO 2023
 
 
 ## 灵巧手抓取
