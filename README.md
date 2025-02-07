@@ -29,6 +29,7 @@ Summary of work related to general robot manipulation.
 
 
 - 上海交通大学 [Graspness Discovery in Clutters for Fast and Accurate Grasp Detection](https://arxiv.org/abs/2406.11142)  ICCV 2021
+
  
 - 上海交通大学 [AnyGrasp](https://graspnet.net/anygrasp)   T-RO 2023
 
@@ -106,3 +107,20 @@ google: [Open X-Embodiment](https://robotics-transformer-x.github.io/)   2023
 
 智元： [AgiBot-World](https://agibot-world.com/)   2025
 
+
+
+
+**数据集的区别:**
+
+GraspNet-1 Billion 主要专注于 抓取姿态检测 和 机器人视觉与操作，适用于需要大量抓取姿态数据的研究和应用。
+
+Agibot World 则涵盖了 更广泛的任务类型，包括家庭、餐饮、工业、商超和办公场景中的多样化技能，适用于需要机器人在复杂环境中执行多种任务的应用。
+
+
+
+## 参考链接
+[近年来机器人主流抓取估计方法总结](https://blog.51cto.com/u_14411234/3094747)
+
+[机器人抓取汇总|涉及目标检测、分割、姿态识别、抓取点检测、路径规划](https://cloud.tencent.com/developer/inventory/1112/article/1587723)
+
+[学习报告：机器人抓取中物体定位、位姿估计和抓取估计算法综述](https://www.scholat.com/teamwork/showPostMessage.html?id=10653)
