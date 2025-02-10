@@ -50,7 +50,12 @@ Summary of work related to general robot manipulation.
     
     主要贡献是考虑了动态物体的抓取。
 
-  Graspnet-1 Billion解读: [https://zhuanlan.zhihu.com/p/703428650](https://zhuanlan.zhihu.com/p/703428650)
+     Graspnet-1 Billion解读: [https://zhuanlan.zhihu.com/p/703428650](https://zhuanlan.zhihu.com/p/703428650)
+
+
+- [MonoGraspNet: 6-DoF Grasping with a Single RGB Image](https://arxiv.org/abs/2209.13036) ICRA 2023  慕尼黑工业大学
+
+    核心是只使用RGD图像进行抓取姿态估计， 无需深度信息。 
 
 
 ## 灵巧手抓取
@@ -143,3 +148,4 @@ Agibot World 则涵盖了 更广泛的任务类型，包括家庭、餐饮、工
 [机器人抓取汇总|涉及目标检测、分割、姿态识别、抓取点检测、路径规划](https://cloud.tencent.com/developer/inventory/1112/article/1587723)
 
 [学习报告：机器人抓取中物体定位、位姿估计和抓取估计算法综述](https://www.scholat.com/teamwork/showPostMessage.html?id=10653)
+
