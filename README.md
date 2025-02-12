@@ -23,14 +23,14 @@ Summary of work related to general robot manipulation.
 
 - [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf)  CVPR 2020
 
-  核心工作是提出了一个大型的抓取姿态检测数据集和评估系统， 包含约10万张图像和10亿个标注的抓取姿态。另外也提出了一个抓取检测网络作为基准。
+  核心工作是提出了一个大型的抓取姿态检测数据集和评估系统， 包含约10万张图像和10亿个标注的抓取姿态。另外也提出了一个抓取检测网络作为基准。 基准网络的性能不是很好，AP值只有27左右 实用价值不大。 
 
 
 
 -  [RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images](https://arxiv.org/abs/2103.02184)  ICRA 2021
   
     核心思路是把抓取姿态估计解耦成2个问题： 通过单目RGB图像产生热力图去预测在图像上的抓取位置和夹爪的方向，然后通过热力图和深度图预测夹爪的宽度和夹爪与图像的距离。
-而以往的方法一般是通过RGBD图像得到点云，忽略了RGB图像中很多丰富的信息。  这种方法降低了对深度信息的依赖， 提高了在深度信息不太准的情况下的鲁棒性。
+而以往的方法一般是通过RGBD图像得到点云，忽略了RGB图像中很多丰富的信息。  这种方法降低了对深度信息的依赖， 提高了在深度信息不太准的情况下的鲁棒性。 最终的效果相比GraspNet-1Billion中的基准网络有微小提升， AP值到28左右。 
 
 
 - [Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes](https://arxiv.org/abs/2103.14127)  ICRA 2021
@@ -38,7 +38,7 @@ Summary of work related to general robot manipulation.
 
 - [Graspness Discovery in Clutters for Fast and Accurate Grasp Detection](https://arxiv.org/abs/2406.11142)  ICCV 2021
     
-    核心工作是提出了抓取质量度量-graspness， 预过滤掉了大多数低质量的抓取姿态， 极大地提高了效率和精度。 该工作已被集成到AnyGrasp中， 但未开源代码， 仅提供动态链接库供调用。
+    核心工作是提出了抓取质量度量-graspness， 预过滤掉了大多数低质量的抓取姿态， 极大地提高了效率和精度。 AP值大幅提升到67左右。 该工作已被集成到AnyGrasp中， 但未开源代码， 仅提供动态链接库供调用。有一些非官方的实现。
 
 - [TransCG: A Large-Scale Real-World Dataset for Transparent Object Depth Completion and a Grasping Baseline](https://arxiv.org/abs/2202.08471) 2022
 
