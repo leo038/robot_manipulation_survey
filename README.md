@@ -58,6 +58,11 @@ Summary of work related to general robot manipulation.
     核心是只使用RGD图像进行抓取姿态估计， 无需深度信息。 
 
 
+- [Efficient End-to-End 6-Dof Grasp Detection Framework for Edge Devices with Hierarchical Heatmaps and Feature Propagation](https://arxiv.org/abs/2410.22980) 2024 清华大学
+
+    核心是高效、轻量， 可以部署到边缘设备。 
+
+
 ## 灵巧手抓取
 
 代表性工作：
