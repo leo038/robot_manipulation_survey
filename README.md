@@ -11,10 +11,14 @@ Summary of work related to general robot manipulation.
 
 这里主要总结6-DoF的抓取， 不关注2D平面抓取。 
 
-- [GraspNet: An Efficient Convolutional Neural Network for Real-time Grasp Detection for Low-powered Devices](https://www.ijcai.org/proceedings/2018/0677.pdf)  IJCAI 2018
+
+- [Grasp Pose Detection in Point Clouds](https://arxiv.org/abs/1706.09911)  IJRR 2017  东北大学(美国)
 
 
-- [Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutte](https://arxiv.org/abs/2101.01132) CoRL  2020
+- [GraspNet: An Efficient Convolutional Neural Network for Real-time Grasp Detection for Low-powered Devices](https://www.ijcai.org/proceedings/2018/0677.pdf)  IJCAI 2018  IBM Research
+
+
+- [Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutte](https://arxiv.org/abs/2101.01132) CoRL  2020    苏黎世联邦理工学院
 
 
 
@@ -38,7 +42,10 @@ Summary of work related to general robot manipulation.
 
 - [Graspness Discovery in Clutters for Fast and Accurate Grasp Detection](https://arxiv.org/abs/2406.11142)  ICCV 2021
     
-    核心工作是提出了抓取质量度量-graspness， 预过滤掉了大多数低质量的抓取姿态， 极大地提高了效率和精度。 AP值大幅提升到67左右。 该工作已被集成到AnyGrasp中， 但未开源代码， 仅提供动态链接库供调用。有一些非官方的实现。
+    核心工作是提出了抓取质量度量-graspness， 预过滤掉了大多数低质量的抓取姿态， 极大地提高了效率和精度。 AP值大幅提升到67左右。 该工作已被集成到AnyGrasp中， 但未开源代码， 仅提供动态链接库供调用。
+
+    非官方的代码实现： [https://github.com/rhett-chen/graspness_implementation](https://github.com/rhett-chen/graspness_implementation)
+
 
 - [TransCG: A Large-Scale Real-World Dataset for Transparent Object Depth Completion and a Grasping Baseline](https://arxiv.org/abs/2202.08471) 2022
 
@@ -53,14 +60,34 @@ Summary of work related to general robot manipulation.
      Graspnet-1 Billion解读: [https://zhuanlan.zhihu.com/p/703428650](https://zhuanlan.zhihu.com/p/703428650)
 
 
+- [Keypoint-GraspNet: Keypoint-based 6-DoF Grasp Generation from the Monocular RGB-D input](https://arxiv.org/abs/2209.08752)  2023  佐治亚理工学院
+
+    基于点云的抓取检测受到计算量的影响， 通常需要降低点云数量， 这会导致小物体的检测失败。 本文在直接在RGBD图像上生成抓取， 具体做法是检测图像空间夹爪关键点投影，然后使用PnP算法恢复6自由度抓取姿态
+
+
 - [MonoGraspNet: 6-DoF Grasping with a Single RGB Image](https://arxiv.org/abs/2209.13036) ICRA 2023  慕尼黑工业大学
 
     核心是只使用RGD图像进行抓取姿态估计， 无需深度信息。 
 
 
+- [Efficient Heatmap-Guided 6-Dof Grasp Detection in Cluttered Scenes](https://arxiv.org/abs/2403.18546)  2024  清华大学
+    
+    当前大部分的抓取研究都采用了全部观察到的点云来预测抓取姿态， 忽略了从全局语义中挖掘的指导信息， 因此限制了高质量的抓取位姿生成和实时性。 本文提出了一个以抓取热图作为引导的高效局部抓取生成器。 
+    
+    代码地址：[https://github.com/THU-VCLab/HGGD](https://github.com/THU-VCLab/HGGD)
+
+
+- [Rethinking 6-Dof Grasp Detection: A Flexible Framework for High-Quality Grasping](https://arxiv.org/abs/2403.15054) 2024 清华大学
+    
+    本文试图解决6自由度机器人抓取任务中的场景级和目标导向抓取的问题。提出了一个灵活的抓取框架FlexLoG，由灵活的引导模块和本地抓取模型组成，能够同时处理场景级和目标导向抓取。
+
+
+
 - [Efficient End-to-End 6-Dof Grasp Detection Framework for Edge Devices with Hierarchical Heatmaps and Feature Propagation](https://arxiv.org/abs/2410.22980) 2024 清华大学
 
     核心是高效、轻量， 可以部署到边缘设备。 
+
+
 
 
 ## 灵巧手抓取
