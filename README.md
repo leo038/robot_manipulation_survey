@@ -87,6 +87,9 @@ Summary of work related to general robot manipulation.
 
     核心是高效、轻量， 可以部署到边缘设备。 
 
+- [Task-Oriented 6-DoF Grasp Pose Detection in Clutters](https://arxiv.org/abs/2502.16976)  ICRA 2025 中山大学
+  
+    通常的抓取检测没有考虑面向不同任务的检测， 而人类在执行不同的任务时， 会以不同的方式抓取物体。本文主要研究了在杂乱场景下， 面向任务的6 dof抓取、
 
 
 
