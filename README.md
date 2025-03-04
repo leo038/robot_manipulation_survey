@@ -120,7 +120,19 @@ Summary of work related to general robot manipulation.
 
 
 
+- [Efficient Residual Learning with Mixture-of-Experts for Universal Dexterous Grasping](https://arxiv.org/abs/2410.02475) 2024, 北大&BAAI
 
+  团队提出的ResDex训练方法在DexGraspNet 3000多个物体的抓取上达到当前最高成功率95%和最快训练速度。
+
+
+- [Cross-Embodiment Dexterous Grasping with Reinforcement Learning](https://arxiv.org/abs/2410.02479v1) 2024, 北大&BAAI
+
+  团队提出CrossDex,能够用单一策略控制不同类型的灵巧手，是首个跨具身的灵巧手抓取学习方法。
+
+
+- [Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations](https://arxiv.org/abs/2410.02477) 2024, 北大&BAAI
+  
+  团队提出BiDexHD框架，能够从任意的一条人类演示学会相应的灵巧手双手操作，首次实现可扩展、通用的双灵巧手操作学习。
 
 
 ## 端到端机器人操作
@@ -144,6 +156,9 @@ Summary of work related to general robot manipulation.
 
 
 3 [OpenVLA](https://openvla.github.io/)    2024
+
+
+4 [RobotBrain](https://superrobobrain.github.io/)  CVPR 2025, BAAI
 
 
 
